@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\KAMSA]
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\KAMSA\shell]
+
+[HKEY_CLASSES_ROOT\KAMSA\shell\open]
+
+[HKEY_CLASSES_ROOT\KAMSA\shell\open\command]
+@="\"c:\\Windows\\System32\\cmd.exe\" \"%1\""
+
