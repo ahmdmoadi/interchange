@@ -1,0 +1,20 @@
+Set wshShell =wscript.CreateObject("WScript.Shell")
+'wscript.sleep 100
+'wshshell.AppActivate "notepad"
+'wshshell.sendkeys("XXXXXX")
+
+'Set objShell = CreateObject("Wscript.shell")
+'objShell.run("c:\\sysA\\Minecraft.exe")
+
+wshShell.sendkeys("exit")
+wshShell.sendkeys("{ENTER}")
+
+wscript.sleep 2000
+
+wshShell.sendkeys("0000")
+wshShell.sendkeys("{ENTER}")
+
+'Dim lol 
+'lol = objShell.run("C:\\Program%20Files%20(x86)\\Microsoft\\Edge\\Application\\msedge.exe")    ' Run Calculator. 
+'objShell.AppActivate lol 
+'objShell.sendkeys("msteams:") 
